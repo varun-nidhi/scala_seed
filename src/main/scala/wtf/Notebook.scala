@@ -42,16 +42,15 @@ spark.sql("select name, department, salary.b " +
 " from sakinaka").show()
 
 
-var sfOptions = Map(
-"sfURL" -> "https://tn61475.central-us.azure.snowflakecomputing.com/",
-"sfAccount" -> "tn61475",
-"sfUser" -> "varun30",
-"sfPassword" -> "Varun@snow30",
-"sfDatabase" -> "letsnow",
-"sfSchema" -> "PUBLIC",
-"sfRole" -> "ACCOUNTADMIN"
-)
-
+  var sfOptions = Map(
+    "sfURL" -> "",
+    "sfAccount" -> "",
+    "sfUser" -> "",
+    "sfPassword" -> "",
+    "sfDatabase" -> "",
+    "sfSchema" -> "PUBLIC",
+    "sfRole" -> "ACCOUNTADMIN"
+  )
 
 simpldedf.write
 .format("snowflake")

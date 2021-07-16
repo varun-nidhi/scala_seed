@@ -21,37 +21,50 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.typelevel</groupId>
             <artifactId>cats-core_2.12</artifactId>
             <version>1.4.0</version>
+            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-stream_2.12</artifactId>
             <version>2.5.3</version>
+            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-http_2.12</artifactId>
             <version>10.1.8</version>
+            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.12</artifactId>
             <version>3.1.1</version>
+            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.12</artifactId>
             <version>3.1.1</version>
+            <scope>provided</scope>
+
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.snowflake/spark-snowflake -->
         <dependency>
             <groupId>net.snowflake</groupId>
             <artifactId>spark-snowflake_2.12</artifactId>
             <version>2.9.0-spark_3.1</version>
+            <scope>provided</scope>
+
         </dependency>
 
     </dependencies>

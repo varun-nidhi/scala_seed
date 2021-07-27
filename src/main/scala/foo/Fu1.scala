@@ -1,4 +1,4 @@
-package wtf
+package foo
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types.{ArrayType, IntegerType, StringType, StructField, StructType}

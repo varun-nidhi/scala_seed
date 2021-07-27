@@ -1,4 +1,4 @@
-package wtf
+package foo
 
 
 import org.apache.spark.sql.{DataFrame, SQLContext, SaveMode, SparkSession}
